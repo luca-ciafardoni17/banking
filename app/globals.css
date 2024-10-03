@@ -114,7 +114,7 @@
   }
 
   .home-header {
-    @apply flex flex-col justify-between gap-8;
+    @apply flex flex-col justify-between gap-6;
   }
 
   .total-balance {
@@ -156,6 +156,7 @@
   /* Right sidebar */
   .right-sidebar {
     @apply no-scrollbar hidden h-screen max-h-screen flex-col border-l border-gray-200 xl:flex w-[355px] xl:overflow-y-scroll !important;
+    padding-right: 0.4rem;
   }
 
   .profile-banner {

@@ -14,8 +14,8 @@ const ibmPlexSerif = IBM_Plex_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "AbrahamBanks",
-  description: "AbrahamBanks is a modern banking system",
+  title: "GoblinBanks",
+  description: "GoblinBanks is a modern banking system",
   icons:{
     icon: '/icons/logo.svg'
   }
