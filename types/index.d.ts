@@ -1,5 +1,7 @@
 /* eslint-disable no-unused-vars */
 
+import { UseFormReturn } from "react-hook-form";
+
 declare type SearchParamProps = {
   params: { [key: string]: string };
   searchParams: { [key: string]: string | string[] | undefined };
@@ -220,6 +222,14 @@ declare interface RightSidebarProps {
 
 declare interface SiderbarProps {
   user: User;
+}
+
+declare interface CustomFieldProps {
+  form: z.ZodSchema;
+  name: 'email' | 'password';
+  label: string;
+  placeholder: string;
+  password?: boolean;
 }
 
 declare interface RecentTransactionsProps {
